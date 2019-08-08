@@ -35,9 +35,9 @@ class newURLReq extends FormRequest
     public function messages()
     {
         return [
-            'shortname.required' => '必填欄位',
+            'shortname.required' => '短網址是必填欄位',
             'shortname.alpha_dash' => '[A-Za-z0-9-_]',
-            'url.required'  => '表單名稱是必填欄位',
+            'url.required'  => '原網址是必填欄位',
             'url.url'  => '請輸入合法url'
         ];
     }
